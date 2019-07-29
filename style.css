@@ -1,0 +1,82 @@
+/* everything within the body is what is on the browswer page */
+body {
+  /* the font family on the page is arial, sans serif and the size is 18px */
+  font: 18px arial, sans-serif;
+  /* the background color is #eee which is white */
+  background: #eee;
+}
+
+/* select all elements with the id animals*/
+#animals {
+  /* all elements with th id animals will take up 70% of the width of the browser window */
+  width: 70%;
+}
+
+/* select all elements with the class animal-item*/
+.animal-item {
+  /* elements with the class animal-item are taken out of normal flow and  positioned the the left side of the page, and it is now a block element.  */
+  float: left;
+  /* there is 10 pixels of space between the content and its border */
+  padding: 10px;
+}
+
+form {
+   /* form element is taken out of normal flow and  positioned the the right side of the page, and it is now a block element.  */
+  float: right;
+ /* form will take up 70% of the width of the browser window */
+  width: 30%;
+   /* there is 20 pixels of space betweenn the content and its border on all sides */
+  padding: 20px;
+}
+
+/* the label for the form: */
+label {
+/* label will display as a a block element. It will start a new line and take up the whole width of the browser */
+  display: block;
+/* There is a 10px gap between this and the next box element */
+  margin-bottom: 10px;
+  /* the font in label will be 700, which is BOLD */
+  font-weight: 700;
+}
+
+/* the type of input is text */
+input[type="text"] {
+
+  /* input will take up 100% of the width of the browser window */
+  width: 100%;
+  /* input element will 30px in height */
+  height: 30px;
+  /* There is a 10px gap between this and the next box element  on all sides*/
+  margin-bottom: 10px;
+  /* font size of the text is 18px */
+  font-size: 18px;
+}
+
+button,
+input[type="submit"] {
+  /* the submit button has 5px of space on top and 20 px of space to the right etweenn the content and its border*/
+  padding: 5px 20px;
+  /* there are no gaps on the top and right between this box and the next box. There is a 10px gap on the right and bottom. */
+  margin: 0 10px 10px 0;
+  /* the font for input is 18pc */
+  font-size: 18px;
+  /* font color is white  */
+  color: #fff;
+  /* the curser is displayed in the browser as a pointer */
+  cursor: pointer;
+  /* the background color for hte text is #659a98 */
+  background: #659a98;
+  this element has
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px #bbb;
+}
+
+button:hover,
+input[type="submit"]:hover {
+  background: #334e4d;
+}
+
+button.active {
+  background: #334e4d;
+}
