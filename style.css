@@ -66,17 +66,22 @@ input[type="submit"] {
   cursor: pointer;
   /* the background color for hte text is #659a98 */
   background: #659a98;
-  this element has
+  /* this element has no border */
   border: 0;
+  /* the border radius is 5px */
   border-radius: 5px;
+  /* the top and right of the box have a 2px shadow and the bottom has a 3px shaddow */
   box-shadow: 2px 2px 3px #bbb;
 }
-
+/* change the style of the button when the mouse is moved over it */
 button:hover,
+/* the button submits form information */
 input[type="submit"]:hover {
+  /* on hover the button background changes color to a dark shade of green */
   background: #334e4d;
 }
-
+/* when the button is active/clicked... */
 button.active {
+  /* ...the button background changes color to a dark shade of green */
   background: #334e4d;
 }
